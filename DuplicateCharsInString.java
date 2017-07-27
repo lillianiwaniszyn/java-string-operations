@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Iterator;
 import java.util.Set;
 
-public class duplicateChars {
+public class DuplicateCharsInString {
 	public List<String> getDuplicates(String input) {
 		String[] userInput = input.split("");
 		List<String> duplicates = new ArrayList<String>();
