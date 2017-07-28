@@ -20,7 +20,7 @@ public class GetFirstNRChar {
 				hmap.put(ascii, x);
 			} else if (x == "*")
 				break;
-			else { // System.out.println(x);
+			else { 
 				removeFromArray(userInput, x);
 			}
 
@@ -41,17 +41,11 @@ public class GetFirstNRChar {
 		for (String d : b) {
 			if (d.equals(c)) {
 				b[count] = "*";
-
 			}
 			count++;
-
 		}
 		for (String q : b) {
-
 		}
-
 		return b;
-
 	}
-
 }
