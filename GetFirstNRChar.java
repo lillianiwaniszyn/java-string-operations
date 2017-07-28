@@ -1,7 +1,7 @@
 
 /*this code returns the first non repeating value of a String as a String. 
 It uses a hashmap to hash all the values, and if there is a collision, it will delete from the array, 
-then return the first value in that array that is not a "*"*/
+then return the first value in that array that wasn't deleted*/
 import java.util.HashMap;
 
 public class GetFirstNRChar {
